@@ -65,63 +65,91 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
+.container{
+	border: 1px black solid;
+	padding: 5%;
+	margin-right: 5%;
+	margin-left: 5%;
+
+}
+
 .top{
 
-	margin-left: 20%;
+	margin-left: 10%;
+	margin-top: 4%;
+	
 	
 }
 
 
 .top nav a{
-	margin:50px auto;
-  	padding:40px;
+	padding:40px;
+	
   	color: gray;
 	text-decoration: none;
-	border: white 3px solid;
+	border: white 1px solid;
 	width: 30%;
 }
 
 .logo{
-	margin-left: 70%;
-	
+	margin-left: 75%;
+	margin-top: -5%;
 }
+
 
 .innovation{
 	text-align: center;
-	font-size: 60px;
-	width: 45%;
+	font-size: 80px;
+	width: 50%;
 	display: inline-block;
 	border: white 1px solid;
 	margin: 50px;
-	padding: 0 auto;
+	padding: 30px;
+
 
 }
 
 .img{
-	width:45%;
+	width:40%;
 	display: inline-block;
+	border: 1px white solid;
+	text-align: center;
+	margin: 0 auto;
+	padding: 40px;
 }
 
 .body{
 	border-top: 1px solid gray;
 	border-Bottom: 1px solid gray;
+	margin-left: 5%;
 }
 
 .features, .about{
 	width: 45%;
 	display: inline-block;
-	margin: 0 auto;
+
+	padding: 3%;
+	border: 1px white solid;
+	
 }
 
 .middle-img{
-	margin-left: 20%;
+	margin-left: 3%;
+	width: 85%;
+
 }
 
 .services, .product, .vision{
 	width: 30%;
 	display: inline-block;
+	padding: 3%;
+}
+
+footer{
+	padding:1% 8%;
 }
 
 .copy p{
-	width: 50%;
+	text-align: center;
 }
+
