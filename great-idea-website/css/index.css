@@ -77,7 +77,7 @@ h1, h2, h3, h4, h5 {
   	padding:40px;
   	color: gray;
 	text-decoration: none;
-	border: red 3px solid;
+	border: white 3px solid;
 	width: 30%;
 }
 
@@ -91,11 +91,9 @@ h1, h2, h3, h4, h5 {
 	font-size: 60px;
 	width: 45%;
 	display: inline-block;
-	border: black 1px solid;
+	border: white 1px solid;
 	margin: 50px;
 	padding: 0 auto;
-
-
 
 }
 
@@ -105,13 +103,14 @@ h1, h2, h3, h4, h5 {
 }
 
 .body{
-	border-top: 1px solid black;
-	border-Bottom: 1px solid black;
+	border-top: 1px solid gray;
+	border-Bottom: 1px solid gray;
 }
 
 .features, .about{
 	width: 45%;
 	display: inline-block;
+	margin: 0 auto;
 }
 
 .middle-img{
@@ -121,4 +120,8 @@ h1, h2, h3, h4, h5 {
 .services, .product, .vision{
 	width: 30%;
 	display: inline-block;
+}
+
+.copy p{
+	width: 50%;
 }
