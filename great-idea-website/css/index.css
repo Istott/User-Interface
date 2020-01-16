@@ -122,6 +122,7 @@ h1, h2, h3, h4, h5 {
 	border-top: 1px solid gray;
 	border-Bottom: 1px solid gray;
 	margin-left: 5%;
+	font-size: 18px;
 }
 
 .features, .about{
@@ -147,6 +148,8 @@ h1, h2, h3, h4, h5 {
 
 footer{
 	padding:1% 8%;
+	font-size: 18px;
+
 }
 
 .copy p{
